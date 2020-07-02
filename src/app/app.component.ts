@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'InteractionSonandDadCheckpoint';
+
+  backgroundColor: string
+
+  changeBGColor(color){
+    this.backgroundColor = color
+  }
 }
